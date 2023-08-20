@@ -9,7 +9,6 @@ export default function Repo({repo}: any) {
         <h3 className="name">{repo.name}</h3>
         <p className="description">{repo.description}</p>
         <p className="language">{repo.language}</p>
-        {/* <Link href={repo} >Check</Link> */}
       </div>
     </div>
   )
