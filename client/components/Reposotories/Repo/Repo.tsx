@@ -1,6 +1,5 @@
 import React from 'react'
 import './Repo.scss'
-import Link from 'next/link';
 
 export default function Repo({repo}: any) {
   return (
