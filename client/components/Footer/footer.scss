@@ -1,0 +1,21 @@
+@import '@/app/globals.scss';
+
+.footer {
+  background-color: $bg-grd-color;
+  color: $black-color;
+  margin-top: 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  .container {
+    text-transform: capitalize;
+    padding: .5rem 0;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    a {
+      color: $gold-color;
+      text-shadow: 1px 1px 1px $black-color;
+    }
+  }
+}
