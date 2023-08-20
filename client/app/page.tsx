@@ -1,7 +1,6 @@
 'use client'
 import './page.scss';
 import { useEffect, useState, useRef } from 'react';
-import { useRouter} from 'next/navigation'
 import Profile from '../components/Profile/Profile';
 
 export default function Home() {
