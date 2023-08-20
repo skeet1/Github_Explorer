@@ -11,7 +11,7 @@ export default function Home() {
   const labelRef = useRef<HTMLLabelElement>(null);
   const emptyRef = useRef<HTMLDivElement>(null);
   const noUserRef = useRef<HTMLDivElement>(null);
-  const [username, setUsername] = useState('skeet1');
+  const [username, setUsername] = useState('');
   const [user, setUser] = useState<any>({});
 
   useEffect(() => {
